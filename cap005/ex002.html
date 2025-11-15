@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-size: 18px;
+            line-height: 1.4;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        hgroup > h1 {
+            font-size: 36px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+        hgroup a {
+            color: #c30;
+            text-decoration: none;
+        }
+        h1 ~ h2 {
+            font-size: 27px;
+            margin-top: 14px;
+            margin-bottom: 14px;
+            color: #090;
+        }
+        nav > ul {
+            margin-left: 50px;
+        }
+        .home {
+            color: #c60;
+            text-decoration: none;
+        }
+        .home:hover {
+            color: #555;
+            text-decoration: underline;
+        }
+        .ahtml {
+            background: #ccc;
+        }
+        .cont {
+            font-size: 26px;
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+    <header class="topo">
+        <hgroup>
+            <h1>
+                <a href="#">
+                    Site do Paulo
+                </a>
+            </h1>
+            <h2>
+                Site destinado a divulgar o trabalho de Paulo Silva
+            </h2>
+        </hgroup>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html" class="home">
+                      Home
+                    </a>
+                </li>
+                <li>
+                    <a href="portifolio.html">
+                        Portifólio
+                    </a>
+                </li>
+                <li class="ahtml">
+                    <a href="artigo-html.html">
+                        Artigos HTML
+                    </a>
+                </li>
+                <li>
+                    <a href="artigo-css.html">
+                        Artigos CSS
+                    </a>
+                </li>
+                <li class="cont">
+                    <a href="contato.html">
+                        Contato
+                    </a>
+                </li>
+                <div class="clear"></div> <!-- Capitulo 6 - "limpar" floats -->
+            </ul>
+        </nav>
+    </header>
+        <!-- mais conteúdo-->
+    <footer class="rodape">
+        <!-- Conteúdo do rodapé do site-->
+    </footer>
+</body>
+</html>
