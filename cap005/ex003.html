@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Paulo 3</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <style rel="stylesheet">
+        html {
+            box-sizing: border-box;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        body {
+            font: 18px/1.4 arial, sans-serif;
+            background: #ddd;
+            color: #333;
+            margin: 0;
+        }
+        .tudo {
+            width: 100%;
+            max-width: 960px;
+            background: #fff;
+            margin: 0 auto;
+        }
+        .topo {
+            width: 100%;
+            line-height: 1;
+            padding: 1px 20px 10px 20px;
+        }
+        .topo  h1 {
+            margin: 4px 0 2px 0;
+            padding: 0 42px 0 0;
+            font-size: 36px;
+            text-align: right;
+        }
+        .topo a {
+            color: #900;
+            text-decoration: none;
+        }
+        .topo h2 {
+            margin: 2px 0 4px 0;
+            padding: 0 42px 0 0;
+            font-size: 20px;
+            text-align: right;
+        }
+        nav > ul {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background: #900;
+        }
+        nav {
+            border-top: 2px solid #900;
+            width: 100%;
+            width: calc(100% + 0px);
+            margin-left: -20px;
+            padding: 4px 0 0 0;
+        }
+        .topo ul li {
+            list-style: none;
+            display: inline;
+        }
+        .topo ul li a {
+            float: left;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 10px 20px;
+            color: #fff;
+            background: #900;
+            border-right: 1px solid #fff;
+            
+        }
+        .topo ul li:last-child a {
+            border: none;
+        }
+        .topo ul li a:hover, .home .corrente {
+            color: #900; background: rgb(225, 185, 185);
+        }
+    </style>
+</head>
+<body class="home">
+    <div class="tudo">
+        <header class="topo">
+        <hgroup>
+            <h1>
+                <a href="#">
+                    Site do Paulo
+                </a>
+            </h1>
+            <h2>
+                Site destinado a divulgar o trabalho de Paulo Silva
+            </h2>
+        </hgroup>
+        <nav>
+            <ul>
+                <li>
+                    <a href="paginas/home.html" class="corrente">
+                      Home
+                    </a>
+                </li>
+                <li>
+                    <a href="paginas/portfolio.html">
+                        Portfólio
+                    </a>
+                </li>
+                <li>
+                    <a href="paginas/artigo-html.html">
+                        Artigos HTML
+                    </a>
+                </li>
+                <li>
+                    <a href="paginas/artigo-css.html">
+                        Artigos CSS
+                    </a>
+                </li>
+                <li>
+                    <a href="paginas/contato.html">
+                        Contato
+                    </a>
+                </li>
+                <div class="clear"></div> <!-- Capitulo 6 - "limpar" floats -->
+            </ul>
+        </nav>
+    </header>
+    </div><!-- /.tudo -->
+        <!-- mais conteúdo-->
+    <footer class="rodape">
+        <!-- Conteúdo do rodapé do site-->
+    </footer>
+</body>
+</html>
